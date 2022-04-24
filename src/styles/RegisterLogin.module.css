@@ -1,0 +1,38 @@
+.container_acc {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.acc {
+  background-color: #ccc;
+  border-top: 20px solid dodgerblue;
+  padding: 2em 4em;
+  border-radius: 20px;
+}
+
+.title {
+  color: #fff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.form input {
+  padding: 5px 10px;
+  outline: none;
+}
+
+.form button {
+  background: dodgerblue;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
